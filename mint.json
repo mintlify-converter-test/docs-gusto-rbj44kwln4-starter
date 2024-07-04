@@ -1,91 +1,71 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "docs-gusto",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/regular.svg",
+    "light": "/logo/inverted.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#323232",
+    "light": "#252525",
+    "dark": "#323232",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#323232",
+      "to": "#252525"
     }
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Create account",
+      "url": "/invite/company"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "How Gusto works",
+    "url": "/invite/company/explore?"
+  },
+  "primaryTab": {
+    "name": "Guides"
   },
   "tabs": [
     {
       "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "/embedded-payroll/reference"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "name": "Changelog",
+      "url": "/embedded-payroll/changelog"
     },
     {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "API Policy",
+      "url": "/embedded-payroll/page/api-policy"
+    },
+    {
+      "name": "API Status",
+      "url": "/embedded-payroll/page/api-status"
+    },
+    {
+      "name": "Gusto Security",
+      "url": "https://gusto.com/security"
     }
   ],
+  "anchors": [],
+  "modeToggle": {
+    "default": "light"
+  },
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Basics",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
-      ]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "docs/introduction"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "facebook": "https://www.facebook.com/GustoHQ",
+    "twitter": "https://twitter.com/gustohq",
+    "linkedin": "https://www.linkedin.com/company/gustohq/posts/",
+    "instagram": "https://www.instagram.com/gustohq/"
   }
 }
